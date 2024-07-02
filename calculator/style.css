@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(44, 46, 44), rgb(59, 56, 56));
+}
+.calculator {
+  border: 1px solid rgb(98, 133, 46);
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgb(113, 115, 119, 0.5);
+}
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgbs(113, 115, 119, 0.5);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #ffff;
+}
+input::placeholder {
+  color: #ffff;
+}
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 20px;
+  color: #30e20d;
+  box-shadow: -8px -8px 15px rgb(225, 225, 225, 0.1);
+  cursor: pointer;
+}
+button:hover {
+  color: #30e20d;
+}
+.equalbtn {
+  color: black;
+}
+.operator {
+  color: #ffff;
+}
